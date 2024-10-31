@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: pltdataset-cpx3u
+  project: pl-detections-v4
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pltdataset-cpx3u/pl-detections-v4/dataset/10
